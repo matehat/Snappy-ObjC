@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         =  'Snappy-ObjC'
+  s.name         =  'Snappy'
   s.version      =  '0.1.0'
   s.license      =  'MIT'
   s.summary      =  'A port of snappy-c to Objective-C.'

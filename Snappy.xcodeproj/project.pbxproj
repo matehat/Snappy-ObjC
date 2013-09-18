@@ -9,14 +9,14 @@
 /* Begin PBXFileReference section */
 		D03DF5D517EA0723002191DF /* snappy-c */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "snappy-c"; sourceTree = "<group>"; };
 		D03DF5D617EA0735002191DF /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
-		D03DF5D817EA07F6002191DF /* Snappy-ObjC.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Snappy-ObjC.podspec"; sourceTree = "<group>"; };
+		D081087E17EA2FF200E84718 /* Snappy.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Snappy.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		D03DF5CE17EA06F6002191DF = {
 			isa = PBXGroup;
 			children = (
-				D03DF5D817EA07F6002191DF /* Snappy-ObjC.podspec */,
+				D081087E17EA2FF200E84718 /* Snappy.podspec */,
 				D03DF5D617EA0735002191DF /* Classes */,
 				D03DF5D517EA0723002191DF /* snappy-c */,
 			);
@@ -30,7 +30,7 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 			};
-			buildConfigurationList = D03DF5D217EA06F6002191DF /* Build configuration list for PBXProject "Snappy-ObjC" */;
+			buildConfigurationList = D03DF5D217EA06F6002191DF /* Build configuration list for PBXProject "Snappy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -61,7 +61,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D03DF5D217EA06F6002191DF /* Build configuration list for PBXProject "Snappy-ObjC" */ = {
+		D03DF5D217EA06F6002191DF /* Build configuration list for PBXProject "Snappy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D03DF5D317EA06F6002191DF /* Debug */,

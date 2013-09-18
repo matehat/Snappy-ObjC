@@ -1,0 +1,76 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		D03DF5D517EA0723002191DF /* snappy-c */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "snappy-c"; sourceTree = "<group>"; };
+		D03DF5D617EA0735002191DF /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		D03DF5D817EA07F6002191DF /* Snappy-ObjC.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Snappy-ObjC.podspec"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D03DF5CE17EA06F6002191DF = {
+			isa = PBXGroup;
+			children = (
+				D03DF5D817EA07F6002191DF /* Snappy-ObjC.podspec */,
+				D03DF5D617EA0735002191DF /* Classes */,
+				D03DF5D517EA0723002191DF /* snappy-c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		D03DF5CF17EA06F6002191DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = D03DF5D217EA06F6002191DF /* Build configuration list for PBXProject "Snappy-ObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D03DF5CE17EA06F6002191DF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		D03DF5D317EA06F6002191DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D03DF5D417EA06F6002191DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D03DF5D217EA06F6002191DF /* Build configuration list for PBXProject "Snappy-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03DF5D317EA06F6002191DF /* Debug */,
+				D03DF5D417EA06F6002191DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D03DF5CF17EA06F6002191DF /* Project object */;
+}

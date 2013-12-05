@@ -1,0 +1,13 @@
+workspace '../Snappy-ObjC'
+inhibit_all_warnings!
+
+def import_pods
+  pod 'Snappy', :path => '../'
+end
+
+xcodeproj 'Snappy-ObjC Tests'
+target :ios do
+  platform :ios, '7.0'
+  link_with 'Snappy-ObjC Tests'
+  import_pods
+end

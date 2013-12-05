@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DF0CF57CCD140F281BCBD45 /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D401E14E01540F4939D76BF /* libPods-ios.a */; };
+		D05A6B8118500C2500BDFC69 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00F7D321834205800026A43 /* XCTest.framework */; };
+		D05A6B8218500C2500BDFC69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00F7D341834205800026A43 /* Foundation.framework */; };
+		D05A6B8318500C2500BDFC69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00F7D361834205800026A43 /* UIKit.framework */; };
+		D05A6B8918500C2500BDFC69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D05A6B8718500C2500BDFC69 /* InfoPlist.strings */; };
+		D05A6B8B18500C2500BDFC69 /* Snappy_ObjC_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05A6B8A18500C2500BDFC69 /* Snappy_ObjC_Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D401E14E01540F4939D76BF /* libPods-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00F7D321834205800026A43 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D00F7D341834205800026A43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D00F7D361834205800026A43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D00F7D3A1834205800026A43 /* iOS Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Tests-Info.plist"; sourceTree = "<group>"; };
+		D00F7D3C1834205800026A43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D00F7D401834205800026A43 /* iOS Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Tests-Prefix.pch"; sourceTree = "<group>"; };
+		D05A6B7A18500BC800BDFC69 /* TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCase.m; sourceTree = "<group>"; };
+		D05A6B8018500C2500BDFC69 /* Snappy-ObjC Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snappy-ObjC Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05A6B8618500C2500BDFC69 /* Snappy-ObjC Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Snappy-ObjC Tests-Info.plist"; sourceTree = "<group>"; };
+		D05A6B8818500C2500BDFC69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D05A6B8A18500C2500BDFC69 /* Snappy_ObjC_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snappy_ObjC_Tests.m; sourceTree = "<group>"; };
+		D05A6B8C18500C2500BDFC69 /* Snappy-ObjC Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snappy-ObjC Tests-Prefix.pch"; sourceTree = "<group>"; };
+		D61E108796804421ADC47415 /* Pods-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.xcconfig"; path = "Pods/Pods-ios.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D05A6B7D18500C2500BDFC69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05A6B8118500C2500BDFC69 /* XCTest.framework in Frameworks */,
+				D05A6B8318500C2500BDFC69 /* UIKit.framework in Frameworks */,
+				D05A6B8218500C2500BDFC69 /* Foundation.framework in Frameworks */,
+				4DF0CF57CCD140F281BCBD45 /* libPods-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0027B5A18341F8A002E8D7E = {
+			isa = PBXGroup;
+			children = (
+				D05A6B7A18500BC800BDFC69 /* TestCase.m */,
+				D00F7D381834205800026A43 /* iOS Tests */,
+				D05A6B8418500C2500BDFC69 /* Snappy-ObjC Tests */,
+				D00F7D311834205800026A43 /* Frameworks */,
+				D00F7D301834205700026A43 /* Products */,
+				D61E108796804421ADC47415 /* Pods-ios.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		D00F7D301834205700026A43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05A6B8018500C2500BDFC69 /* Snappy-ObjC Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D00F7D311834205800026A43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D00F7D321834205800026A43 /* XCTest.framework */,
+				D00F7D341834205800026A43 /* Foundation.framework */,
+				D00F7D361834205800026A43 /* UIKit.framework */,
+				5D401E14E01540F4939D76BF /* libPods-ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D00F7D381834205800026A43 /* iOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D00F7D391834205800026A43 /* Supporting Files */,
+			);
+			path = "iOS Tests";
+			sourceTree = "<group>";
+		};
+		D00F7D391834205800026A43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D00F7D3A1834205800026A43 /* iOS Tests-Info.plist */,
+				D00F7D3B1834205800026A43 /* InfoPlist.strings */,
+				D00F7D401834205800026A43 /* iOS Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D05A6B8418500C2500BDFC69 /* Snappy-ObjC Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D05A6B8A18500C2500BDFC69 /* Snappy_ObjC_Tests.m */,
+				D05A6B8518500C2500BDFC69 /* Supporting Files */,
+			);
+			path = "Snappy-ObjC Tests";
+			sourceTree = "<group>";
+		};
+		D05A6B8518500C2500BDFC69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D05A6B8618500C2500BDFC69 /* Snappy-ObjC Tests-Info.plist */,
+				D05A6B8718500C2500BDFC69 /* InfoPlist.strings */,
+				D05A6B8C18500C2500BDFC69 /* Snappy-ObjC Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D05A6B7F18500C2500BDFC69 /* Snappy-ObjC Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05A6B8D18500C2500BDFC69 /* Build configuration list for PBXNativeTarget "Snappy-ObjC Tests" */;
+			buildPhases = (
+				BE9D30E065F64592B765719B /* Check Pods Manifest.lock */,
+				D05A6B7C18500C2500BDFC69 /* Sources */,
+				D05A6B7D18500C2500BDFC69 /* Frameworks */,
+				D05A6B7E18500C2500BDFC69 /* Resources */,
+				2EBD8AD43EEF4D77AB2AAADF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snappy-ObjC Tests";
+			productName = "Snappy-ObjC Tests";
+			productReference = D05A6B8018500C2500BDFC69 /* Snappy-ObjC Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0027B5B18341F8A002E8D7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = D0027B5E18341F8A002E8D7E /* Build configuration list for PBXProject "Snappy-ObjC Tests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0027B5A18341F8A002E8D7E;
+			productRefGroup = D00F7D301834205700026A43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D05A6B7F18500C2500BDFC69 /* Snappy-ObjC Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D05A6B7E18500C2500BDFC69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05A6B8918500C2500BDFC69 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EBD8AD43EEF4D77AB2AAADF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9D30E065F64592B765719B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D05A6B7C18500C2500BDFC69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05A6B8B18500C2500BDFC69 /* Snappy_ObjC_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D00F7D3B1834205800026A43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00F7D3C1834205800026A43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D05A6B8718500C2500BDFC69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05A6B8818500C2500BDFC69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0027B5F18341F8A002E8D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+			};
+			name = Debug;
+		};
+		D0027B6018341F8A002E8D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+			};
+			name = Release;
+		};
+		D05A6B8E18500C2500BDFC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61E108796804421ADC47415 /* Pods-ios.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snappy-ObjC Tests/Snappy-ObjC Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Snappy-ObjC Tests/Snappy-ObjC Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D05A6B8F18500C2500BDFC69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61E108796804421ADC47415 /* Pods-ios.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snappy-ObjC Tests/Snappy-ObjC Tests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Snappy-ObjC Tests/Snappy-ObjC Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0027B5E18341F8A002E8D7E /* Build configuration list for PBXProject "Snappy-ObjC Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0027B5F18341F8A002E8D7E /* Debug */,
+				D0027B6018341F8A002E8D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05A6B8D18500C2500BDFC69 /* Build configuration list for PBXNativeTarget "Snappy-ObjC Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05A6B8E18500C2500BDFC69 /* Debug */,
+				D05A6B8F18500C2500BDFC69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0027B5B18341F8A002E8D7E /* Project object */;
+}

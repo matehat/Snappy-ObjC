@@ -28,9 +28,15 @@
 #import "snappy.h"
 #import "Snappy-ObjC.h"
 
+#ifdef SNAPPY_NO_PREFIX
+#define mn(_name_) _name_
+#else
+#define mn(_name_) snappy_ ## _name_
+#endif
+
 @implementation NSData (Snappy)
 
-- (NSData *) compressedData {
+- (NSData *) mn(compressedData) {
     struct snappy_env env;
     NSAssert(snappy_init_env(&env) == 0, @"Initialization of a Snappy compression environment was not successful.");
     size_t clen = snappy_max_compressed_length(self.length);
@@ -40,7 +46,7 @@
     snappy_free_env(&env);
     return [NSData dataWithBytesNoCopy:buffer length:clen];
 }
-- (NSData *) decompressedData {
+- (NSData *) mn(decompressedData) {
     size_t ulen;
     snappy_uncompressed_length(self.bytes, self.length, &ulen);
     char *buffer = malloc(ulen);
@@ -48,8 +54,8 @@
     return [NSData dataWithBytesNoCopy:buffer length:ulen];
 }
 
-- (NSString *) decompressedString {
-    return [[NSString alloc] initWithData:[self decompressedData]
+- (NSString *) mn(decompressedString) {
+    return [[NSString alloc] initWithData:[self mn(decompressedData)]
                                  encoding:NSUTF8StringEncoding];
 }
 
@@ -57,8 +63,8 @@
 
 @implementation NSString (Snappy)
 
-- (NSData *)compressedString {
-    return [[self dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:NO] compressedData];
+- (NSData *) mn(compressedString) {
+    return [[self dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:NO] mn(compressedData)];
 }
 
 @end

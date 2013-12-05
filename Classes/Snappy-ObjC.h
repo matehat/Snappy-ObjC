@@ -30,15 +30,33 @@
 
 @interface NSData (Snappy)
 
+#ifdef SNAPPY_NO_PREFIX
+
 - (NSData *) compressedData;
 - (NSData *) decompressedData;
 - (NSString *) decompressedString;
+
+#else
+
+- (NSData *) snappy_compressedData;
+- (NSData *) snappy_decompressedData;
+- (NSString *) snappy_decompressedString;
+
+#endif
 
 @end
 
 @interface NSString (Snappy)
 
+#ifdef SNAPPY_NO_PREFIX
+
 - (NSData *) compressedString;
+
+#else
+
+- (NSData *) snappy_compressedString;
+
+#endif
 
 @end
 

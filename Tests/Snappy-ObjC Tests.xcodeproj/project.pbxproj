@@ -13,6 +13,7 @@
 		D05A6B8318500C2500BDFC69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00F7D361834205800026A43 /* UIKit.framework */; };
 		D05A6B8918500C2500BDFC69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D05A6B8718500C2500BDFC69 /* InfoPlist.strings */; };
 		D05A6B8B18500C2500BDFC69 /* Snappy_ObjC_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05A6B8A18500C2500BDFC69 /* Snappy_ObjC_Tests.m */; };
+		D05A6B911850123600BDFC69 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = D05A6B901850123600BDFC69 /* example.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,15 +21,12 @@
 		D00F7D321834205800026A43 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D00F7D341834205800026A43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D00F7D361834205800026A43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D00F7D3A1834205800026A43 /* iOS Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Tests-Info.plist"; sourceTree = "<group>"; };
-		D00F7D3C1834205800026A43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D00F7D401834205800026A43 /* iOS Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Tests-Prefix.pch"; sourceTree = "<group>"; };
-		D05A6B7A18500BC800BDFC69 /* TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCase.m; sourceTree = "<group>"; };
 		D05A6B8018500C2500BDFC69 /* Snappy-ObjC Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snappy-ObjC Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05A6B8618500C2500BDFC69 /* Snappy-ObjC Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Snappy-ObjC Tests-Info.plist"; sourceTree = "<group>"; };
 		D05A6B8818500C2500BDFC69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D05A6B8A18500C2500BDFC69 /* Snappy_ObjC_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snappy_ObjC_Tests.m; sourceTree = "<group>"; };
 		D05A6B8C18500C2500BDFC69 /* Snappy-ObjC Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snappy-ObjC Tests-Prefix.pch"; sourceTree = "<group>"; };
+		D05A6B901850123600BDFC69 /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = example.json; path = ../example.json; sourceTree = "<group>"; };
 		D61E108796804421ADC47415 /* Pods-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.xcconfig"; path = "Pods/Pods-ios.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,8 +48,6 @@
 		D0027B5A18341F8A002E8D7E = {
 			isa = PBXGroup;
 			children = (
-				D05A6B7A18500BC800BDFC69 /* TestCase.m */,
-				D00F7D381834205800026A43 /* iOS Tests */,
 				D05A6B8418500C2500BDFC69 /* Snappy-ObjC Tests */,
 				D00F7D311834205800026A43 /* Frameworks */,
 				D00F7D301834205700026A43 /* Products */,
@@ -78,27 +74,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D00F7D381834205800026A43 /* iOS Tests */ = {
-			isa = PBXGroup;
-			children = (
-				D00F7D391834205800026A43 /* Supporting Files */,
-			);
-			path = "iOS Tests";
-			sourceTree = "<group>";
-		};
-		D00F7D391834205800026A43 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D00F7D3A1834205800026A43 /* iOS Tests-Info.plist */,
-				D00F7D3B1834205800026A43 /* InfoPlist.strings */,
-				D00F7D401834205800026A43 /* iOS Tests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		D05A6B8418500C2500BDFC69 /* Snappy-ObjC Tests */ = {
 			isa = PBXGroup;
 			children = (
+				D05A6B901850123600BDFC69 /* example.json */,
 				D05A6B8A18500C2500BDFC69 /* Snappy_ObjC_Tests.m */,
 				D05A6B8518500C2500BDFC69 /* Supporting Files */,
 			);
@@ -167,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05A6B911850123600BDFC69 /* example.json in Resources */,
 				D05A6B8918500C2500BDFC69 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,14 +198,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D00F7D3B1834205800026A43 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D00F7D3C1834205800026A43 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		D05A6B8718500C2500BDFC69 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

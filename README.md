@@ -48,7 +48,7 @@ end
 
 ### Testing
 
-The project includes a (simple) test suite.
+The project includes a (simple) [test suite](Tests/Snappy-ObjC Tests/Snappy_ObjC_Tests.m).
 
 1. Clone the repo
 2. Go in Tests/

@@ -39,7 +39,7 @@ If you are using cocoapods, that means going to the `Pods-Snappy` target in your
 post_install do |rep|
   rep.project.targets.each do |target|
     target.build_configurations.each do |config|
-      config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ''
+      config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= '$(inherited)'
       config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] <<= " SNAPPY_NO_PREFIX=1"
     end
   end
